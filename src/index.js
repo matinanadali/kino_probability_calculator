@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Try_it from './try_it';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('try-it'));
 root.render(
   <React.StrictMode>
-    <Try_it />
+    <App />
   </React.StrictMode>
 );
 

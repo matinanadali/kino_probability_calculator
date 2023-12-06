@@ -1,4 +1,4 @@
-import './try_it.css';
+import './App.css';
 import React from 'react';
 import { useState } from 'react';
 const numbers = [];
@@ -99,7 +99,7 @@ generateNumbers();
 generateLosses();
 findMinMaxLoss();
 
-function Try_it() {
+function App() {
   const [showProbability, setShowProbability] = useState(false);
   const [numbers_chosen, setNumbersChosen] = useState([]);
   const [selectedValue, setSelectedValue] = useState(1);
@@ -194,7 +194,7 @@ function Try_it() {
           {allLoss.map((loss, i) => 
           <tr className={(i === numbersForMinLoss) ? "minLoss" : (i === numbersForMaxLoss) ? "maxLoss" : "normal"}>
             <td>{i+1} {(i>0) ? "numbers" : "number"}</td>
-            <td>{loss}</td>
+            <td>{(100 * loss).toFixed(3)} % of the money you bet</td>
           </tr>)}
           </tbody>
         </table>
@@ -203,4 +203,4 @@ function Try_it() {
   );
 }
 
-export default Try_it;
+export default App;
