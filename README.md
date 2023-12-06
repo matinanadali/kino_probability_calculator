@@ -1,4 +1,4 @@
-# Kino probability calculator
+# <a href="https://657093df4a9daf0008d918d6--animated-rabanadas-9577dc.netlify.app/"> Kino probability calculator</a>
 ## Overview
 In the game of Kino, players are presented with a board featuring 80 numbers, and their task is to select between 1 and 12 numbers from the available options. Subsequently, 20 numbers are drawn at random, and players receive a payout based on the accuracy of their chosen numbers.
 ## The app
